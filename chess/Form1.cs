@@ -12,9 +12,30 @@ namespace chess
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
+            pictureBox2.Parent = pictureBox1;
+            pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
+            pictureBox1.Image = Board.boardimg;
+       //     _graphics.Clear(Color.Transparent);
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
