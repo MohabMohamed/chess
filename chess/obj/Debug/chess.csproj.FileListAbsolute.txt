@@ -1,0 +1,1 @@
+c:\users\mohab\documents\visual studio 2013\Projects\chess\chess\bin\Debug\chess.exe.config
