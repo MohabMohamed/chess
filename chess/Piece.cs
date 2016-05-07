@@ -9,13 +9,16 @@ using System.Drawing;
 namespace chess
 {
    
- class Piece
+ class Piece:Board
     {
-        static public Image img ;
-      public Piece()
+         public Image img ;
+        protected int kind;
+        protected char color;
+      public Piece(int kind,char color,Image img)
        {
-           
-          
+           this.kind = kind;
+           this.color = color;
+           this.img = img;
        }
       public virtual void Invalid()
       {
