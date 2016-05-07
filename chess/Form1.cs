@@ -16,24 +16,29 @@ namespace chess
         Piece[,] board;
         Graphics graphics;
         Board b=new Board();
+        Image piecesimg;
+        int hieght;
+        int width;
         public Form1()
         {
             InitializeComponent();
             pictureBox2.Parent = pictureBox1;
             pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
             pictureBox1.Image = Board.boardimg;
-            
-           
-          //  GameBegin();    
+            hieght = pictureBox2.Size.Height;
+            width = pictureBox2.Size.Width;
+         GameBegin();    
             
         }
         private void GameBegin()
         {
             
             if(board==null)board=new Piece[8,8];
-           // b.SetBoard();
-           // if (graphics == null) graphics = Graphics.FromImage(pictureBox2.Image);
-         //   update();
+           b.SetBoard();
+           
+           if (piecesimg == null) piecesimg = new Bitmap(width,hieght);
+           graphics = Graphics.FromImage(piecesimg);
+           update();
         }
         private void update()
         {
@@ -43,10 +48,11 @@ namespace chess
                  for(int j=0;j<8;j++){
                      if (board[i, j] != null)
                      {
-                         graphics.DrawImage(board[i, j].img, new Rectangle(i * 50, j * 50, 50, 50));
+                         graphics.DrawImage(board[i, j].img, new Rectangle( i* (width/8), j *(hieght/8), width/8, hieght/8));
                    }
                  }
             }
+            pictureBox2.Image = piecesimg;
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
