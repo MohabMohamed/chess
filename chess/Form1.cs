@@ -15,7 +15,7 @@ namespace chess
     {
         Piece[,] board;
         Graphics graphics;
-        Board b;//=new Board();
+        Board b=new Board();
         public Form1()
         {
             InitializeComponent();

@@ -9,7 +9,7 @@ using System.Drawing;
 namespace chess
 {
    
- class Piece:Board
+ class Piece
     {
          public Image img ;
         protected int kind;
