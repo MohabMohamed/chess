@@ -14,17 +14,18 @@ namespace chess
          public Image img ;
         protected int kind;
         protected char color;
+        
       public Piece(int kind,char color,Image img)
        {
            this.kind = kind;
            this.color = color;
            this.img = img;
        }
-      public virtual void Invalid()
+      public void Invalid(int startrow, int startcol, int endrow, int endcol)
       {
-
+          
       }
-      public virtual void move(Piece p)
+      public virtual void move()
       {
 
       }

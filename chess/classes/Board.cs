@@ -10,11 +10,11 @@ using System.IO;
 namespace chess
 {
 
-    class Board
+    class  Board
     {
         public  static  Image boardimg = new Bitmap(@"Images\boardBG.jpg");
         private static Piece[,] board;
-        private PColor col=new PColor();
+        private static PColor col=new PColor();
         public  Board()
         {
             SetBoard();

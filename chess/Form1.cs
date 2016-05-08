@@ -27,6 +27,7 @@ namespace chess
             pictureBox1.Image = Board.boardimg;
             hieght = pictureBox2.Size.Height;
             width = pictureBox2.Size.Width;
+            DoubleBuffered = true;
          GameBegin();    
             
         }
@@ -60,8 +61,7 @@ namespace chess
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            
+        { 
         }
 
         private void Form1_Load(object sender, EventArgs e)
