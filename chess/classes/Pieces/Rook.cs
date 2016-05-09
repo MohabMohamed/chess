@@ -10,10 +10,12 @@ namespace chess.Pieces
 {
     class Rook:Piece
     {
-        Rook(int type, char color, Image img)
-            : base(type, color, img)
+        public Rook(int type, char color,Image img)
+            : base(type, color,img)
         {
             
         }
+
+        public override void makemove(int oldrow, int oldcolumn, int newrow, int newcolumn)         {        }
     }
 }

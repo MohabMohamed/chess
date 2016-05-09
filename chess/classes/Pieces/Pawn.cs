@@ -10,10 +10,13 @@ namespace chess.Pieces
 {
     class Pawn:Piece
     {
-        Pawn(int type, char color, Image img)
+
+        public Pawn(int type, char color,Image img)
             : base(type, color,img)
         {
             
         }
+
+        public override void makemove(int oldrow, int oldcolumn, int newrow, int newcolumn)         {        }
     }
 }

@@ -11,7 +11,7 @@ namespace chess
    
  class Piece
     {
-         public Image img ;
+        public Image img ;
         protected int kind;
         protected char color;
         
@@ -21,11 +21,8 @@ namespace chess
            this.color = color;
            this.img = img;
        }
-      public void Invalid(int startrow, int startcol, int endrow, int endcol)
-      {
-          
-      }
-      public virtual void move()
+     
+      public virtual void makemove(int oldrow,int oldcolumn,int newrow,int newcolumn)
       {
 
       }

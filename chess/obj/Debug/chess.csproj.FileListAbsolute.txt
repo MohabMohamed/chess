@@ -8,3 +8,12 @@ C:\Users\mohab\Desktop\Chess\chess\chess\obj\Debug\chess.Properties.Resources.re
 C:\Users\mohab\Desktop\Chess\chess\chess\obj\Debug\chess.csproj.GenerateResource.Cache
 C:\Users\mohab\Desktop\Chess\chess\chess\obj\Debug\chess.exe
 C:\Users\mohab\Desktop\Chess\chess\chess\obj\Debug\chess.pdb
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\bin\Debug\chess.exe.config
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.exe
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.pdb
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.csprojResolveAssemblyReference.cache
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.Form1.resources
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.Properties.Resources.resources
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.csproj.GenerateResource.Cache
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\bin\Debug\chess.exe
+O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\bin\Debug\chess.pdb

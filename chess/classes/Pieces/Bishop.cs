@@ -10,10 +10,13 @@ namespace chess.Pieces
 {
     class Bishop:Piece
     {
-        Bishop(int type, char color,Image img)
+
+        public Bishop(int type, char color,Image img)
             : base(type, color,img)
         {
             
         }
+
+        public override void makemove(int oldrow, int oldcolumn, int newrow, int newcolumn)         {        }
     }
 }

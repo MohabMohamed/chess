@@ -10,10 +10,13 @@ namespace chess
 {
     class Knight:Piece
     {
-        Knight(int type, char color, Image img)
+
+        public Knight(int type, char color,Image img)
             : base(type, color,img)
         {
             
         }
+
+        public override void makemove(int oldrow, int oldcolumn, int newrow, int newcolumn)         {        }
     }
 }
