@@ -26,3 +26,12 @@ D:\gitprojects\chess\chess\obj\Debug\chess.Properties.Resources.resources
 D:\gitprojects\chess\chess\obj\Debug\chess.csproj.GenerateResource.Cache
 D:\gitprojects\chess\chess\bin\Debug\chess.exe
 D:\gitprojects\chess\chess\bin\Debug\chess.pdb
+D:\New folder\chess_git\chess\chess\bin\Debug\chess.exe.config
+D:\New folder\chess_git\chess\chess\obj\Debug\chess.exe
+D:\New folder\chess_git\chess\chess\obj\Debug\chess.pdb
+D:\New folder\chess_git\chess\chess\obj\Debug\chess.csprojResolveAssemblyReference.cache
+D:\New folder\chess_git\chess\chess\obj\Debug\chess.Form1.resources
+D:\New folder\chess_git\chess\chess\obj\Debug\chess.Properties.Resources.resources
+D:\New folder\chess_git\chess\chess\obj\Debug\chess.csproj.GenerateResource.Cache
+D:\New folder\chess_git\chess\chess\bin\Debug\chess.exe
+D:\New folder\chess_git\chess\chess\bin\Debug\chess.pdb

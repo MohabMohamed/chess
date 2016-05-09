@@ -49,12 +49,14 @@ namespace chess
                  for(int j=0;j<8;j++){
                      if (board[i, j] != null)
                      {
-                         graphics.DrawImage(board[i, j].img, new Rectangle( i* (width/8), j *(hieght/8), width/8, hieght/8));
+                         graphics.DrawImage(board[j, i].img, new Rectangle( i* (width/8), j *(hieght/8), width/8, hieght/8));
                    }
                  }
             }
             pictureBox2.Image = piecesimg;
         }
+
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             
