@@ -17,3 +17,12 @@ O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.
 O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\obj\Debug\chess.csproj.GenerateResource.Cache
 O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\bin\Debug\chess.exe
 O:\F-C-I-S\Second year\Second Term\OOP\ChessProject\chess\chess\bin\Debug\chess.pdb
+D:\gitprojects\chess\chess\bin\Debug\chess.exe.config
+D:\gitprojects\chess\chess\obj\Debug\chess.exe
+D:\gitprojects\chess\chess\obj\Debug\chess.pdb
+D:\gitprojects\chess\chess\obj\Debug\chess.csprojResolveAssemblyReference.cache
+D:\gitprojects\chess\chess\obj\Debug\chess.Form1.resources
+D:\gitprojects\chess\chess\obj\Debug\chess.Properties.Resources.resources
+D:\gitprojects\chess\chess\obj\Debug\chess.csproj.GenerateResource.Cache
+D:\gitprojects\chess\chess\bin\Debug\chess.exe
+D:\gitprojects\chess\chess\bin\Debug\chess.pdb
