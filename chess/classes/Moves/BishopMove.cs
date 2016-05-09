@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace chess
 {
-    class LondDiagonal:MoveBehavior
+    class BishopMove : MoveBehavior
     {
-      public  bool makemove(int oldrow, int oldcolmn, int newrow, int newcolmn)
+        public bool makemove(int oldrow, int oldcolmn, int newrow, int newcolmn)
         {
             return true;
         }

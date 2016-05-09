@@ -46,12 +46,13 @@
   <ItemGroup>
     <Compile Include="classes\Board.cs" />
     <Compile Include="classes\Move.cs" />
-    <Compile Include="classes\Movement\KnightMovement.cs" />
-    <Compile Include="classes\Movement\LondDiagonal.cs" />
-    <Compile Include="classes\Movement\LongForward.cs" />
-    <Compile Include="classes\Movement\MoveBehavior.cs" />
-    <Compile Include="classes\Movement\ShortDiagonal.cs" />
-    <Compile Include="classes\Movement\ShortForward.cs" />
+    <Compile Include="classes\Moves\BishopMove.cs" />
+    <Compile Include="classes\Moves\KingMove.cs" />
+    <Compile Include="classes\Moves\KnightMovement.cs" />
+    <Compile Include="classes\Moves\MoveBehavior.cs" />
+    <Compile Include="classes\Moves\PawnMove.cs" />
+    <Compile Include="classes\Moves\Q_move.cs" />
+    <Compile Include="classes\Moves\RookMove.cs" />
     <Compile Include="classes\PColor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

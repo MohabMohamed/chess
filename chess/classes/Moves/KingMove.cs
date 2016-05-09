@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace chess
 {
-    class ShortDiagonal:MoveBehavior
+    class QueenMovement2 : MoveBehavior
     {
-       public bool makemove(int oldrow, int oldcolmn, int newrow, int newcolmn)
+        public bool makemove(int oldrow, int oldcolmn, int newrow, int newcolmn)
         {
             return true;
         }
